@@ -1,0 +1,4 @@
+2024-12-05 10:20:05,887 - ERROR - Error in sentiment prediction: X has 93 features, but ExtraTreesClassifier is expecting 95 features as input.
+2024-12-05 10:20:34,058 - ERROR - Error in sentiment prediction: X has 93 features, but ExtraTreesClassifier is expecting 95 features as input.
+2024-12-05 10:20:34,063 - ERROR - Error in sentiment prediction: X has 93 features, but ExtraTreesClassifier is expecting 95 features as input.
+2024-12-05 10:20:53,019 - ERROR - Error in sentiment prediction: X has 93 features, but ExtraTreesClassifier is expecting 95 features as input.
