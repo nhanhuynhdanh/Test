@@ -5,10 +5,9 @@ import os
 import seaborn as sns
 import joblib
 import warnings
-from sklearn.exceptions import InconsistentVersionWarning
 from function import*
 import pandas as pd
-warnings.filterwarnings("ignore", category=InconsistentVersionWarning)
+
 os.getcwd()
 
 
