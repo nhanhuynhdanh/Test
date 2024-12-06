@@ -33,6 +33,8 @@ import numpy as np
 import requests
 import re
 import regex
+import nltk
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize, word_tokenize
 from pyvi.ViTokenizer import tokenize
 
