@@ -10,6 +10,20 @@ import pandas as pd
 
 os.getcwd()
 
+import nltk
+import os
+
+# Tạo thư mục tùy chỉnh cho dữ liệu NLTK
+nltk_data_dir = os.path.join(os.getcwd(), "nltk_data")
+os.makedirs(nltk_data_dir, exist_ok=True)
+
+# Thêm thư mục vào đường dẫn tìm kiếm của NLTK
+nltk.data.path.append(nltk_data_dir)
+
+# Tải tài nguyên 'punkt' vào thư mục tùy chỉnh
+nltk.download('punkt', download_dir=nltk_data_dir)
+
+
 
 ###################################
 import subprocess
